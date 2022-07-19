@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098336F7288325A70080D228 /* iOSEncryptDecryptLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 098336F6288325A70080D228 /* iOSEncryptDecryptLib.docc */; };
+		098336FD288325A70080D228 /* iOSEncryptDecryptLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098336F2288325A70080D228 /* iOSEncryptDecryptLib.framework */; };
+		09833702288325A70080D228 /* iOSEncryptDecryptLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09833701288325A70080D228 /* iOSEncryptDecryptLibTests.swift */; };
+		09833703288325A70080D228 /* iOSEncryptDecryptLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 098336F5288325A70080D228 /* iOSEncryptDecryptLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0983370D288325BD0080D228 /* EncryptDecryptFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0983370C288325BD0080D228 /* EncryptDecryptFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		098336FE288325A70080D228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 098336E9288325A70080D228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 098336F1288325A70080D228;
+			remoteInfo = iOSEncryptDecryptLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		098336F2288325A70080D228 /* iOSEncryptDecryptLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSEncryptDecryptLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		098336F5288325A70080D228 /* iOSEncryptDecryptLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSEncryptDecryptLib.h; sourceTree = "<group>"; };
+		098336F6288325A70080D228 /* iOSEncryptDecryptLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = iOSEncryptDecryptLib.docc; sourceTree = "<group>"; };
+		098336FC288325A70080D228 /* iOSEncryptDecryptLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSEncryptDecryptLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09833701288325A70080D228 /* iOSEncryptDecryptLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSEncryptDecryptLibTests.swift; sourceTree = "<group>"; };
+		0983370C288325BD0080D228 /* EncryptDecryptFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptDecryptFile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		098336EF288325A70080D228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098336F9288325A70080D228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098336FD288325A70080D228 /* iOSEncryptDecryptLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098336E8288325A70080D228 = {
+			isa = PBXGroup;
+			children = (
+				098336F4288325A70080D228 /* iOSEncryptDecryptLib */,
+				09833700288325A70080D228 /* iOSEncryptDecryptLibTests */,
+				098336F3288325A70080D228 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		098336F3288325A70080D228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				098336F2288325A70080D228 /* iOSEncryptDecryptLib.framework */,
+				098336FC288325A70080D228 /* iOSEncryptDecryptLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		098336F4288325A70080D228 /* iOSEncryptDecryptLib */ = {
+			isa = PBXGroup;
+			children = (
+				098336F5288325A70080D228 /* iOSEncryptDecryptLib.h */,
+				098336F6288325A70080D228 /* iOSEncryptDecryptLib.docc */,
+				0983370C288325BD0080D228 /* EncryptDecryptFile.swift */,
+			);
+			path = iOSEncryptDecryptLib;
+			sourceTree = "<group>";
+		};
+		09833700288325A70080D228 /* iOSEncryptDecryptLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				09833701288325A70080D228 /* iOSEncryptDecryptLibTests.swift */,
+			);
+			path = iOSEncryptDecryptLibTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		098336ED288325A70080D228 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09833703288325A70080D228 /* iOSEncryptDecryptLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		098336F1288325A70080D228 /* iOSEncryptDecryptLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09833706288325A70080D228 /* Build configuration list for PBXNativeTarget "iOSEncryptDecryptLib" */;
+			buildPhases = (
+				098336ED288325A70080D228 /* Headers */,
+				098336EE288325A70080D228 /* Sources */,
+				098336EF288325A70080D228 /* Frameworks */,
+				098336F0288325A70080D228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSEncryptDecryptLib;
+			productName = iOSEncryptDecryptLib;
+			productReference = 098336F2288325A70080D228 /* iOSEncryptDecryptLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		098336FB288325A70080D228 /* iOSEncryptDecryptLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09833709288325A70080D228 /* Build configuration list for PBXNativeTarget "iOSEncryptDecryptLibTests" */;
+			buildPhases = (
+				098336F8288325A70080D228 /* Sources */,
+				098336F9288325A70080D228 /* Frameworks */,
+				098336FA288325A70080D228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				098336FF288325A70080D228 /* PBXTargetDependency */,
+			);
+			name = iOSEncryptDecryptLibTests;
+			productName = iOSEncryptDecryptLibTests;
+			productReference = 098336FC288325A70080D228 /* iOSEncryptDecryptLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		098336E9288325A70080D228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					098336F1288325A70080D228 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					098336FB288325A70080D228 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 098336EC288325A70080D228 /* Build configuration list for PBXProject "iOSEncryptDecryptLib" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 098336E8288325A70080D228;
+			productRefGroup = 098336F3288325A70080D228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				098336F1288325A70080D228 /* iOSEncryptDecryptLib */,
+				098336FB288325A70080D228 /* iOSEncryptDecryptLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		098336F0288325A70080D228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098336FA288325A70080D228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		098336EE288325A70080D228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098336F7288325A70080D228 /* iOSEncryptDecryptLib.docc in Sources */,
+				0983370D288325BD0080D228 /* EncryptDecryptFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098336F8288325A70080D228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09833702288325A70080D228 /* iOSEncryptDecryptLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		098336FF288325A70080D228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 098336F1288325A70080D228 /* iOSEncryptDecryptLib */;
+			targetProxy = 098336FE288325A70080D228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09833704288325A70080D228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09833705288325A70080D228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09833707288325A70080D228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YU6WB94747;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Components.iOSEncryptDecryptLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09833708288325A70080D228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YU6WB94747;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Components.iOSEncryptDecryptLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0983370A288325A70080D228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YU6WB94747;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Components.iOSEncryptDecryptLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0983370B288325A70080D228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YU6WB94747;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Components.iOSEncryptDecryptLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		098336EC288325A70080D228 /* Build configuration list for PBXProject "iOSEncryptDecryptLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09833704288325A70080D228 /* Debug */,
+				09833705288325A70080D228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09833706288325A70080D228 /* Build configuration list for PBXNativeTarget "iOSEncryptDecryptLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09833707288325A70080D228 /* Debug */,
+				09833708288325A70080D228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09833709288325A70080D228 /* Build configuration list for PBXNativeTarget "iOSEncryptDecryptLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0983370A288325A70080D228 /* Debug */,
+				0983370B288325A70080D228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 098336E9288325A70080D228 /* Project object */;
+}
